@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="asset/css/icon.css">
+      <link rel="stylesheet" href="asset/css/icon.css">
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+</head>
+<body>
+  
+    <div class="dashboard"><!-- Dashboard-->
+<section class="navigation"><!-- Navigation-->
+<img src="asset/img/instincthub logo.jpg" alt="instincthub logo">
+<div>
+    <span class="material-icons-outlined"> dashboard </span>
+    <span class="material-icons-outlined">timeline</span>
+    <span class="material-icons-outlined">people_alt</span>
+    <span class="material-icons-outlined">date_range</span>
+    <span class="material-icons-outlined">settings</span>
+</div>
+
+
+</section><!-- navigation End-->
+
+<section class="main"><!-- main-->
+    <div class="search"><!-- Search-->
+        <form action="">
+            <input type="text" name="search" id="search" placeholder="Search Here">
+            <span class="material-icons-outlined">search</span>  
+        </form>
+        <div class="notification">
+            <span class="material-icons-outlined">notifications</span>
+            <span class="material-icons-outlined">edit</span>
+            
+        </div>
+    </div><!--Search Ends-->
+
+    <div class="title">
+        <h1>My project</h1>
+        <form action="">
+            <label for="projects">Sort By</label>
+            <select name="Projects" id="Projects">
+                <option value="recent">Recent Project</option>
+                <option value="finished">Finish Project</option>
+                <option value="Ongoing">Ongoing Project</option>
+                <option value="Stalled">Stalled Project</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="project_list"><!--Project List-->
+        <div class="project"><!--Project1-->
+            <div class="category"></div>
+            <h2>Graphic Design</h2>
+            <p>Active Recently</p>
+
+            <ul class="activity">
+                <li>Coming soon banner</li>
+                <li>Book cover</li>
+            </ul>
+
+            <div class="meta">
+                <div class="contributors"></div>
+                <img src="asset/img/img 1.jpg" alt=""width="120"
+                height="120">
+                <img src="asset/img/img 2.jpg" alt=""width="120"
+                height="120">
+                <img src="asset/img/img 3.jpg" alt=""width="120"
+                height="120">
+            </div>
+            <span class="material-icons-outlined">more_vert</span>
+
+        </div><!--Project1 End-->
+
+        <div class="project"><!--Project2-->
+            <div class="category"></div>
+            <h2>Magazine</h2>
+            <p>1 hour ago</p>
+
+            <ul class="activity">
+                <li>Editorial page content</li>
+            </ul>
+
+            <div class="meta">
+                <div class="contributors"></div>
+                <img src="asset/img/img 4.jpg" alt=""width="120"
+                height="120">
+                <img src="asset/img/img 5.jpg" alt=""width="120"
+                height="120">
+               
+            </div>
+            <span class="material-icons-outlined">more_vert</span>
+
+        </div><!--Project2 End-->
+
+
+        
+        <div class="project"><!--Project 3-->
+            <div class="category"></div>
+            <h2>Layouting</h2>
+            <p>1 day ago</p>
+
+            <ul class="activity">
+                <li>Fix layout on page ads</li>
+            </ul>
+
+            <div class="meta">
+                <div class="contributors"></div>
+                <img src="asset/img/img 6.jpg" alt=""width="120"
+                height="120">
+               
+               
+            </div>
+            <span class="material-icons-outlined">more_vert</span>
+
+        </div><!--Project3 End-->
+        <div class="project"><!--Project4-->
+            <div class="category"></div>
+            <h2>Layouting</h2>
+            <p>1 day ago</p>
+
+            <ul class="activity">
+                <li>Fix layout on page ads</li>
+            </ul>
+
+            <div class="meta">
+                <div class="contributors"></div>
+                <img src="asset/img/img 7.jpg" alt=""width="120"
+                height="120">
+               
+               
+            </div>
+            <span class="material-icons-outlined">more_vert</span>
+
+        </div><!--Project4 End-->
+
+        <div class="project"><!--Project5-->
+            <div class="category"></div>
+            <h2>Guidelines</h2>
+            <p>5 day ago</p>
+
+            <ul class="activity">
+                <li>Make brand guidelines for marked cosmetics</li>
+            </ul>
+
+            <div class="meta">
+                <div class="contributors"></div>
+                <img src="asset/img/img 8.jpg" alt=""width="120"
+                height="120">
+                <img src="asset/img/img 3.jpg" alt=""width="120"
+                height="120">
+               
+               
+            </div>
+            <span class="material-icons-outlined">more_vert</span>
+
+        </div><!--Project5 End-->
+
+        <div class="project"><!--Project6-->
+            <div class="category"></div>
+            <h2>Photoshoot</h2>
+            <p>1 week ago</p>
+
+            <ul class="activity">
+                <li>Get the photo ready for magazine</li>
+            </ul>
+
+            <div class="meta">
+                <div class="contributors"></div>
+                <img src="asset/img/img 5.jpg" alt=""width="120"
+                height="120">
+                <img src="asset/img/img 7.jpg" alt=""width="120"
+                height="120">
+                <img src="asset/img/img 9.jpg" alt=""width="120"
+                height="120">
+               
+               
+            </div>
+            <span class="material-icons-outlined">more_vert</span>
+
+        </div><!--Project6 End-->
+    </div><!--Project List End-->
+
+</section><!-- main End-->
+
+<section class="secondary"><!-- secondary-->
+    <div class="chart">
+        <h2>Total Project</h2>
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    <div class="recent_ptoject"><!--Recent Project-->
+        <div class="listing">
+            <div class="title">
+                <div class="category">
+                    <h2>Layouting</h2>
+                    <p>Annie Hunter</p>
+                </div>
+                <span class="material-icons-outlined">more_vert</span>
+            </div>
+        </div>
+        <div class="listing">
+            <div class="title">
+                <div class="category">
+                    <h2>Photoshoot</h2>
+                    <p>Solomon Judah</p>
+                </div>
+                <span class="material-icons-outlined">more_vert</span>
+            </div>
+        </div>
+        <div class="listing">
+            <div class="title">
+                <div class="category">
+                    <h2>Layouting</h2>
+                    <p>Diana Chuka</p>
+                </div>
+                <span class="material-icons-outlined">more_vert</span>
+            </div>
+        </div>
+
+    </div><!--Recent Project End-->
+
+
+</section><!-- Secondary End-->
+
+    </div><!-- Dashboard End-->
+
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: [
+                     'Daily',
+                     'Montly',
+                    'Yearly'
+               ],
+               datasets: [{
+                   label: 'My First Dataset',
+                  data: [300, 50, 100],
+                  backgroundColor: [
+                 'rgb(255, 99, 132)',
+                 'rgb(54, 162, 235)',
+                 'rgb(255, 205, 86)'
+               ],
+               hoverOffset: 4
+             }]
+            },
+        });
+        </script>
+</body>
+</html>

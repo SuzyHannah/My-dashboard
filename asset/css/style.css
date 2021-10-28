@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+font-family: 'Zen Antique Soft', serif;
+}
+body{
+    margin: 0px;
+    background-color: grey;
+}
+.dashboard{
+    padding: 0px 15px;
+    margin: 0auto;
+}
